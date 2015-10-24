@@ -1,0 +1,12 @@
+Consider this function that prints a page number on the left or right side of a page:
+if page % 2 == 0:
+print(page)
+else :
+print("%60s%d" % (" ", page))
+Introduce a function that returns a Boolean to make the condition in the if statement easier to understand.
+page=int(input("Give me page num "))
+p=page % 2 == 0
+if p == 0:
+  print(p)
+else :
+  print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", page)
